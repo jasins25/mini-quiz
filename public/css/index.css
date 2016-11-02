@@ -1,0 +1,108 @@
+.logo {
+    width: 25%;
+}
+.navbar-white {
+    background-color: white;
+    border-bottom-color: #ccc;
+    margin-top: 100px;
+}
+
+#navbar1 {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#navbar1 a {
+    color: #41bcc4;
+}
+
+.carousel {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.carousel-inner>.item>img {
+    width:100%
+}
+.banner-container{
+    padding:0;
+    margin: 0;
+    vertical-align: baseline;
+}
+.banner-container>.row {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 50px 0;
+}
+.banner1{
+    padding: 0 5px 0 0;
+    margin: 0;
+}
+.banner2{
+    padding: 0 0 0 5px;
+    margin: 0;
+}
+.banner1>a>img,.banner2>a>img {
+    height: auto;
+    width: 100%;
+}
+.featuredProd {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.section-title {
+    font-size: 1.6em;
+    line-height: 1.8em;
+    float: left;
+    display: inline-block;
+}
+.section-pagination{
+    display: inline-block;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    height: 40px;
+    float: right;
+}
+.products {
+    padding-bottom: 15px;
+}
+.item .products img{
+    width: 240px;
+    height: 300px;
+}
+.item .products h4{
+    height: 40px;
+}
+.item .products button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0;
+    background-color: #ccc;
+    text-shadow: none;
+
+}
+
+.featuredProd .row .carousel-controls{
+    position:relative;
+    width:300px;
+    margin:0 auto;
+    display: inline-block;
+    float: right;
+
+}
+.featuredProd .row .carousel-controls .carousel-control {
+    color: black;
+}
+.featuredProd .row .carousel-controls .carousel-indicators{
+    top:0px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding: 40px 0;
+}
+.noPointers{
+    list-style: none;
+}

@@ -1,0 +1,58 @@
+{
+    "id": 1,
+    "name": "Plato",
+    "logo": "https://tackthis.blob.core.windows.net/logos/30141/original/30141_1459415155.png",
+	"address_1": "71 Ayer Rajah Crescent",
+	"address_2": "#07-03",
+	"country": "Singapore",
+	"Postal Code": "839430",
+	"telephone": "63493843",
+	"fax": "64343434",
+	"email": "support@plato.com",
+    "menu_items": [
+		{
+			"menu_id": 1,
+			"menu_name": "Home",
+			"menu_url": "#"
+		},
+		{
+			"menu_id": 2,
+			"menu_name": "Accessories",
+			"menu_url": "#"
+		},
+		{
+			"menu_id": 3,
+			"menu_name": "Dresses",
+			"menu_url": "#"
+		},
+		{
+			"menu_id": 4,
+			"menu_name": "Skirts",
+			"menu_url": "#"
+		}
+	],
+	"banners": [
+		{
+			"banner_id": 1,
+			"banner_image_url": "http://tackthis.blob.core.windows.net/themes/repository/5/0.0.1/img/banner-1.jpg"
+		},
+		{
+			"banner_id": 2,
+			"banner_image_url": "http://tackthis.blob.core.windows.net/themes/repository/5/0.0.1/img/banner-2.jpg"
+		},
+		{
+			"banner_id": 3,
+			"banner_image_url": "http://tackthis.blob.core.windows.net/themes/repository/5/0.0.1/img/banner-3.jpg"
+		}
+	],
+	"featured_images": [
+		{
+			"banner_id": 1,
+			"banner_image_url": "http://tackthis.blob.core.windows.net/themes/repository/5/0.0.1/img/featured-1.jpg"
+		},
+		{
+			"banner_id": 2,
+			"banner_image_url": "http://tackthis.blob.core.windows.net/themes/repository/5/0.0.1/img/featured-2.jpg"
+		}
+	]
+}
