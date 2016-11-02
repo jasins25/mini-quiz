@@ -6,6 +6,13 @@
         var vm = this;
         vm.shop = {};
         vm.products = [];
+        vm.currency = "";
+        vm.searchText = "";
+        vm.cart = {
+            noOfItems: 0,
+            totalPrice: 0
+        };
+        vm.email = "";
 
         $http.get('js/shop.json')
             .then(function (res) {
@@ -27,6 +34,10 @@
         };
 
         vm.dropBoxChange();
+        
+        vm.search = function () {
+            console.log("String to be searched: ", vm.searchText);
+        };
         
         vm.getProduct = function (id) {
             console.info("View details of ", id);
